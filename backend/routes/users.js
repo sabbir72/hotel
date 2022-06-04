@@ -5,7 +5,7 @@ import {
   getUser,
   getUsers,
 } from "../controllers/user.js";
-import { verifyAdmin, verifyToken, verifyUser } from "../utils/verifyToken.js";
+import { verifyAdmin, verifyToken, verifyUser } from "../Utils/verifyToken";
 
 const router = express.Router();
 
